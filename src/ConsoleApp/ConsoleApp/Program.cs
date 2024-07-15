@@ -1,6 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-// # corriger les erreurs
+// # corriger les erreurs et faire pour que la console afficher "Hello, World 1!"
 
 var variable = "hello"
 
