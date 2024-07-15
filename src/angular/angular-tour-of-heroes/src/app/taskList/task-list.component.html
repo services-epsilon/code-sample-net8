@@ -1,0 +1,22 @@
+<div>
+  <h2>Exemple #2 - Gestionnaire de tâche - Task list</h2>
+  <p>Gestionnaire de tâche a des problème plante - il faut les corrigers.</p>
+  <ul>
+    <li>L'action <b>ajouter</b> ne fonctionne pas.</li>
+    <li>Autres comportements incorrect à venir.</li>
+    <li> - Doublon.</li>
+    <li> - Vide " ".</li>
+    <li>L'action <b>supprimer toutes les tâches</b> est à définir.</li>
+    <li>Amélioration suggérée : mettre en gras et en majuscule les tâches ajoutés.</li>
+  </ul>
+
+  <input [(ngModel)]="newTask" placeholder="Ajouter une tâche" />
+  <button (click)="addTask()">Ajouter</button>
+  <button>Suprimer toutes les tâches</button>
+  <ul>
+    <li *ngFor="let task of tasks; let i = index">
+      {{ task }}
+      <button (click)="removeTask(i)">Supprimer</button>
+    </li>
+  </ul>
+</div>
