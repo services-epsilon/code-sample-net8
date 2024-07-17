@@ -10,7 +10,7 @@ if(variable == "toto")
 }
 
 // # faire une boucle et
-// afficher les chiffres en ordre croissant sans les 
-// # enlever le 3.0 en double
-double valeur = [2.0, 1.0, 4.0, 3.0, 5.0, 3.0];
+// afficher les chiffres en ordre croissant en format entier ex: "1" sans le .0
+// enlever le doublon 3.0
+List<double> valeurs = [2.0, 1.0, 4.0, 3.0, 5.0, 3.0];
 
