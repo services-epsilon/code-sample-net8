@@ -1,2 +1,2 @@
-# code-sample-net8
-Code sample .net 8
+# code-sample-net9
+Code sample .NET 9
