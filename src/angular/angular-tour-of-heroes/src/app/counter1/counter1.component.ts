@@ -16,4 +16,8 @@ export class Counter1Component {
   decrement() {
     this.count -= this.step;
   }
+
+  error() {
+    throw new Error('Not implemented exception error message');
+  }
 }
