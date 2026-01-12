@@ -3,8 +3,6 @@
 // # 1
 // corriger les erreurs et faire pour que la console afficher "Hello, World 1!"
 
-using System;
-
 var variable = "hello"
 
 if(variable == "toto") 
