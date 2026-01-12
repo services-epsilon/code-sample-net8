@@ -1,5 +1,6 @@
-# code-sample-net8
-Code sample .net 8
+# code-sample
+Exemple de code .NET et Angular
+
 ## Projects
 
 This repository contains two projects:
