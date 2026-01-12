@@ -5,7 +5,7 @@
 
 using System;
 
-var variable = "hello"
+var variable = "hello";
 
 if(variable == "toto") 
 {
