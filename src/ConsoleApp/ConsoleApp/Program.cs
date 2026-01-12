@@ -3,13 +3,11 @@
 // # 1
 // corriger les erreurs et faire pour que la console afficher "Hello, World 1!"
 
-using System;
-
-var variable = "hello";
+var variable = "hello"
 
 if(variable == "toto") 
 {
-    Console.WriteLine("Hello, World 1!");
+    Console.WriteLine("Hello, World 1!);
 }
 
 
