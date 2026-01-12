@@ -3,7 +3,7 @@
   <p>Gestionnaire de tâche a des problème plante - il faut les corrigers.</p>
   <ul>
     <li>L'action <b>ajouter</b> ne fonctionne pas.</li>
-    <li>L'action <b>supprimer toutes les tâches</b> est à définir.</li>    
+    <li>L'action <b>supprimer toutes les tâches</b> est à définir.</li>
   </ul>
 
   <input [(ngModel)]="newTask" placeholder="Ajouter une tâche" />
@@ -13,11 +13,11 @@
   <button>Supprimer toutes les tâches</button>
 
   <ul>
-    <li *ngFor="let task of tasks; let i = index">
-      {{ task }}
-
-      <button (click)="removeTask(i)">Supprimer</button>
-
-    </li>
+    @for (task of tasks; track task; let i = $index) {
+      <li>
+        {{ task }}
+        <button (click)="removeTask(i)">Supprimer</button>
+      </li>
+    }
   </ul>
 </div>

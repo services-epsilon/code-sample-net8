@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-counter1',
-  templateUrl: './counter1.component.html',
-  styleUrls: ['./counter1.component.css']
+    selector: 'app-counter1',
+    templateUrl: './counter1.component.html',
+    styleUrls: ['./counter1.component.css'],
+    standalone: false
 })
 export class Counter1Component {
   count = 0;
