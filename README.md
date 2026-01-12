@@ -14,7 +14,7 @@ To get started with these projects, follow the instructions below.
 
 ### Prerequisites
 
-- [.NET 8 SDK](https://dotnet.microsoft.com/download/dotnet/8.0)
+- [.NET 10 SDK](https://dotnet.microsoft.com/download/dotnet/10.0)
 - [Node.js](https://nodejs.org/) (for Project B)
 - [Angular CLI](https://angular.io/cli) (for Project B)
 
@@ -22,20 +22,20 @@ To get started with these projects, follow the instructions below.
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/code-sample-net8.git
-    cd code-sample-net8
+    git clone https://github.com/services-epsilon/code-sample-angular-net
+    cd code-sample-angular-net
     ```
 
 2. Navigate to Project A and restore dependencies:
     ```sh
-    cd ProjectA
+    cd ConsoleApp
     dotnet restore
     ```
 
 3. Navigate to Project B and install dependencies:
     ```sh
-    cd ../ProjectB
-    npm install
+    cd ../ConsoleApp
+    yarn install
     ```
 
 ### Running the Projects
